@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <AssemblyVersion>5.0.4.0</AssemblyVersion>
+    <FileVersion>5.0.4.0</FileVersion>
+    <Version>5.0.4-preview</Version>
+    <Description>This project implements the library wkhtmltopdf for asp net core and a view engine, working in windows, macos, linux and docker.
+
+      For more information about how to use it, go to https://github.com/fpanaccia/Wkhtmltopdf.NetCore.Example</Description>
+    <RepositoryUrl>https://github.com/fpanaccia/Wkhtmltopdf.NetCore</RepositoryUrl>
+    <PackageReleaseNotes>net 6 - temporary implementation until 5.0.4</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Rotativa\**\*" Pack="true" PackagePath="contentFiles/any/any/rotativa" PackageCopyToOutput="true" />
+  </ItemGroup>
+</Project>

@@ -7,7 +7,9 @@
     <Version>5.0.4-preview</Version>
     <Description>This project implements the library wkhtmltopdf for asp net core and a view engine, working in windows, macos, linux and docker.
 
-      For more information about how to use it, go to https://github.com/fpanaccia/Wkhtmltopdf.NetCore.Example</Description>
+      For more information about how to use it, go to https://github.com/fpanaccia/Wkhtmltopdf.NetCore.Example
+      https://github.com/Wolffy101/Wkhtmltopdf.Net6
+    </Description>
     <RepositoryUrl>https://github.com/fpanaccia/Wkhtmltopdf.NetCore</RepositoryUrl>
     <PackageReleaseNotes>net 6 - temporary implementation until 5.0.4</PackageReleaseNotes>
   </PropertyGroup>
